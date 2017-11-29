@@ -1,3 +1,6 @@
+// below defines flash cards structure
+// front is an array of questions
+// back is an array of corresponding answers, matched by array index 
 var BasicCardQuestions = {
     front: [
         "Who was there first  astronaut that landed on the moon in 1969?",
@@ -30,12 +33,6 @@ var BasicCard = function(front, back) {
     }
     this.front = front;
     this.back = back;
-    /*  this.makeNoise = function() {
-        if (this.raining === true) {
-          console.log(this.noise);
-        }
-      };*/
-
 }
 
 module.exports = {
